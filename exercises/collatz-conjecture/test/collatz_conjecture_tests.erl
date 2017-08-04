@@ -16,7 +16,7 @@ even_and_odd_steps_test() ->
 
 large_number_of_even_and_odd_steps_test() ->
   ?assertEqual(152, ?TESTED_MODULE:steps(1000000)).
-  
+
 zero_is_an_error_test() ->
   ?assertEqual({error, "Only strictly positive numbers are allowed"}, ?TESTED_MODULE:steps(0)).
 
